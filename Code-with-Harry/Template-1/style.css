@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url("/img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.8;
+}
+
+.left {
+  text-align: center;
+  position: absolute;
+  left: 35px;
+  top: 18px;
+}
+
+.mid {
+  border-radius: 20px;
+  display: block;
+  width: 33%;
+  margin: 18px auto;
+}
+
+.right {
+  position: absolute;
+  right: 35px;
+  top: 18px;
+}
+
+.navbar {
+  display: inline-block;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navbar li a {
+  color: lightcyan;
+  text-decoration: none;
+  padding: 10px 5px;
+  font-family: "Kanit", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Trispace", sans-serif;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+.logo {
+  width: 70px;
+}
+
+.left div {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Trispace", sans-serif;
+}
+
+.btn {
+  margin: 18px 15px;
+  background-color: lightseagreen;
+  color: white;
+  padding: 4px 14px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Trispace", sans-serif;
+}
+
+.btn:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.name {
+  padding: 10px;
+  color: lightcyan;
+}
+
+.form {
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  width: 30%;
+  margin: 85px 96px;
+  padding: 55px;
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  box-shadow: 7px 5px 10px 5px grey;
+}
+
+.form-group input {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 9px;
+  width: 365px;
+  margin: 11px auto;
+  font-family: "Kanit", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Trispace", sans-serif;
+}
+
+.form h1 {
+  text-align: center;
+  animation-name: offer1;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes offer1 {
+  0% {
+    font-size: 20px;
+  }
+  100%{
+    font-size: 30px;
+  }
+}
+
+.form button {
+  display: block;
+  width: 32%;
+  margin: 20px auto;
+}
